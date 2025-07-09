@@ -3,7 +3,7 @@
 # Optimización de Carteras con Deep Learning
 
 **Autor:** Lucas Mauricio Velázquez  
-**Tesis de Maestría en Ciencia de Datos**, Marzo 2025  
+**Tesis de Maestría en Ciencia de Datos**, Julio 2025  
 Directora: Dra. Leticia I. Gómez
 
 ---
@@ -22,4 +22,30 @@ Se evalúan sobre:
 ---
 
 ## 📂 Estructura del repositorio
+
+- **data/**  
+  - `datos.xlsx`  
+    - Hoja **VTI**: precios y log-retornos  
+    - Hoja **AGG**: precios y log-retornos  
+    - Hoja **DBC**: precios y log-retornos  
+    - Hoja **^VIX**: precios y log-retornos  
+
+- **notebooks/**  
+  - `Portfolio_Optimizacion.ipynb`  
+    Notebook completo (Colab/Jupyter) con todo el flujo de:  
+    1. Carga y preprocesamiento  
+    2. Definición de modelos (LSTM, DMLP, MSAD…)  
+    3. Entrenamiento, validación y test  
+    4. Cálculo de métricas y gráficos
+
+- **slides/**  
+  - `Defensa_Tesis.pptx`  
+    Presentación para la defensa de la tesis
+
+- `requirements.txt`  
+  Lista de dependencias Python (`pandas`, `numpy`, `tensorflow`, `cvxpy`, `keras-tuner`, `openpyxl`, etc.)
+
+- `.gitignore`  
+  Ignora archivos temporales de Python y Jupyter:
+
 
